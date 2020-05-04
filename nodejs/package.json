@@ -31,7 +31,8 @@
     "redux": "3.7.0",
     "redux-thunk": "2.2.0",
     "sassdash": "^0.8.2",
-    "whatwg-fetch": "2.0.3"
+    "whatwg-fetch": "2.0.3",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "@storybook/react": "^3.1.7",
@@ -93,7 +94,9 @@
     "predeploy-storybook": "npm run build-storybook",
     "deploy-storybook": "surge -p storybook-static -d ict-projects-dashboard-ui.surge.sh",
     "postdeploy-storybook": "yarn run notify-slack:storybook",
-    "notify-slack:storybook": "node ./bin/notify-slack.js"
+    "notify-slack:storybook": "node ./bin/notify-slack.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -130,5 +133,6 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "snyk": true
 }
