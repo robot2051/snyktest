@@ -12,7 +12,7 @@
     "classnames": "^2.2.5",
     "date-fns": "^1.28.5",
     "freactal": "^1.1.1",
-    "lodash": "4.17.4",
+    "lodash": "4.17.21",
     "numeral": "^1.5.6",
     "polished": "^1.4.0",
     "prop-types": "^15.5.10",
