@@ -6,7 +6,7 @@
     "node": "8.1.2"
   },
   "dependencies": {
-    "@atlaskit/tooltip": "^1.2.0",
+    "@atlaskit/tooltip": "^8.4.0",
     "@gov.au/datavizkit": "^1.0.27-development",
     "bootstrap": "4.0.0-alpha.6",
     "classnames": "^2.2.5",
